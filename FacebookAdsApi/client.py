@@ -111,8 +111,8 @@ class Client(object):
             the error message.
         Examples
         --------
-        >>> from FacebookAdsApi.enums import LAST_7D
-        >>> from FacebookAdsApi.fields import FIELD_SOURCE, FIELD_CAMPAIGN, FIELD_CLICKS
+        >>> from FacebookAdsWindsorApi.enums import LAST_7D
+        >>> from FacebookAdsWindsorApi.fields import FIELD_SOURCE, FIELD_CAMPAIGN, FIELD_CLICKS
         >>> client = Client(api_key)
         >>> orders = client.connectors(date_preset=LAST_7D, fields=[FIELD_SOURCE, FIELD_CAMPAIGN, FIELD_CLICKS])
         """

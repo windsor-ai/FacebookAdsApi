@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from FacebookAdsApi.client import Client
+from FacebookAdsWindsorApi.client import Client
 
 
 class TestRequest(unittest.TestCase):
